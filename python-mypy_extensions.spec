@@ -52,17 +52,6 @@ Moduł "mypy_extensions" definiuje eksperymentalne rozszerzenia
 standardowego modułu "typing", obsługiwane przez narzędzie do
 kontroli typów mypy.
 
-%package apidocs
-Summary:	API documentation for Python mypy_extensions module
-Summary(pl.UTF-8):	Dokumentacja API modułu Pythona mypy_extensions
-Group:		Documentation
-
-%description apidocs
-API documentation for Python mypy_extensions module.
-
-%description apidocs -l pl.UTF-8
-Dokumentacja API modułu Pythona mypy_extensions.
-
 %prep
 %setup -q -n mypy_extensions-%{version}
 
