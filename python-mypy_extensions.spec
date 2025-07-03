@@ -6,13 +6,14 @@
 Summary:	Experimental type system extensions for programs checked with the mypy typechecker
 Summary(pl.UTF-8):	Eksperymentalne rozszerzenia systemu typowania dla programów sprawdzanych narzędziem mypy
 Name:		python-mypy_extensions
-Version:	0.4.3
-Release:	7
+# keep 0.x here for python2 support
+Version:	0.4.4
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/mypy-extensions/
 Source0:	https://files.pythonhosted.org/packages/source/m/mypy-extensions/mypy_extensions-%{version}.tar.gz
-# Source0-md5:	4163ff73d0db8631c0a78bb55b551c84
+# Source0-md5:	8d98ac7a315e3cc4aee6c37595ff1021
 URL:		https://pypi.org/project/mypy-extensions/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
