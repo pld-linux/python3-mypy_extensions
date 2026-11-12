@@ -5,23 +5,22 @@
 Summary:	Experimental type system extensions for programs checked with the mypy typechecker
 Summary(pl.UTF-8):	Eksperymentalne rozszerzenia systemu typowania dla programów sprawdzanych narzędziem mypy
 Name:		python3-mypy_extensions
-Version:	1.1.0
+Version:	1.2.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/mypy-extensions/
 Source0:	https://files.pythonhosted.org/packages/source/m/mypy-extensions/mypy_extensions-%{version}.tar.gz
-# Source0-md5:	f59bfd7f9dca73f36c8feed12f9e8eba
+# Source0-md5:	25d0c46efc1c271fd976944f6e66a3e2
 URL:		https://pypi.org/project/mypy-extensions/
 BuildRequires:	python3-build
 BuildRequires:	python3-flit_core >= 3.11
-BuildRequires:	python3-flit_core < 4
+BuildRequires:	python3-flit_core < 5
 BuildRequires:	python3-installer
-BuildRequires:	python3-modules >= 1:3.8
-BuildRequires:	python3-setuptools
+BuildRequires:	python3-modules >= 1:3.10
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 2.044
-Requires:	python3-modules >= 1:3.8
+Requires:	python3-modules >= 1:3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
